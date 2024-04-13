@@ -11,14 +11,21 @@ int main() {
     //printf("%p\n",*ip);
     //printf("%p",*ip2);
 
-    while (ip < ip2) {
-        temp = *ip;
-        *ip = *ip2;
-        *ip2 = temp;
-        ip2--;
-        ip++;
+    // while (ip < ip2) {
+    //     temp = *ip;
+    //     *ip = *ip2;
+    //     *ip2 = temp;
+    //     ip2--;
+    //     ip++;
     
-    }
+    // }
+    for(int i =0;i<SIZE/2;i++){
+        temp = *ip;
+         *ip = *ip2;
+         *ip2 = temp;
+         ip2--;
+         ip++;
+    };
     //printf("%p\n",*ip);
     printf("%s\n",name);
 
