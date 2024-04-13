@@ -1,12 +1,13 @@
 #include<stdio.h>
+#define SIZE 7
 
 int main() {
-    char name[8] = "abcdefg";//swap to gdfedcba
+    char name[SIZE] = "abcdefg";//swap to gdfedcba
     char *ip,*ip2;
     char temp;
 
     ip = name;
-    ip2 = &name[6];
+    ip2 = &name[SIZE-1];
     //printf("%p\n",*ip);
     //printf("%p",*ip2);
 
