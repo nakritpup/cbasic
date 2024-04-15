@@ -19,22 +19,27 @@ int main(){
     // printf("Value s: %s\n",s);
     // free(s);
 
-
     int num;
     char *str;
+    // printf("Enter number of characters: ");
+    // scanf("%d", &num);
+    // str = (char *)malloc((num) * sizeof(char));
+    // for (int i = 0; i < num; i++) {
+    //     printf("Enter character: ");
+    //     scanf(" %c", &str[i]); //ต้องใส่ spaceหน้า %c เพื่อให้รับค่าได้ถูกต้อง
+    // }
+    // printf("Entered string is: %s\n", str);
+    // free(str);
 
-    printf("Enter number of characters: ");
-    scanf("%d", &num);
-    str = (char *)malloc((num) * sizeof(char));
-    for (int i = 0; i < num; i++) {
-        printf("Enter character: ");
-        scanf(" %c", &str[i]); 
-    }
+    // str = (char *)calloc((num) , sizeof(char));
+    // for (int i = 0; i < num; i++) {
+    //      printf("Enter character: ");
+    //      scanf(" %c", &str[i]); //ต้องใส่ spaceหน้า %c เพื่อให้รับค่าได้ถูกต้อง
+    //  }
+    //  printf("Entered string is: %s\n", str);
+    //  free(str);
+    
 
-
-    printf("Entered string is: %s\n", str);
-
-    free(str);
 
     return 0;
 }
