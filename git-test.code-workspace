@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "../git-test"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"typeinfo": "c"
+		}
+	}
+}
